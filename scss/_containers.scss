@@ -1,0 +1,12 @@
+.colors {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+
+.color-container {
+    height: 100px;
+    width: 100px;
+    border: solid 0.5px #1e1e1f;
+}

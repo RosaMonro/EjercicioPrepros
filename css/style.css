@@ -1,0 +1,40 @@
+:root {
+  /*COLORS*/
+  --color-cherry: #AB0232;
+  --color-cherry-light: #AF0F3C;
+  --color-black: #1e1e1f;
+  --color-white: #FFFFFF;
+}
+
+.colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3px;
+}
+
+.color-container {
+  height: 100px;
+  width: 100px;
+  border: solid 0.5px #1e1e1f;
+}
+
+.color-bg--cherry {
+  background-color: var(--color-cherry);
+}
+
+.color-bg--cherry-light {
+  background-color: var(--color-cherry-light);
+}
+
+.color-bg--white {
+  background-color: var(--color-white);
+}
+
+.color-bg--black {
+  background-color: var(--color-black);
+}
